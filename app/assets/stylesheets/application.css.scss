@@ -38,9 +38,9 @@
  .priority_2 {color: #c09000}
  .priority_3 {color: #c00000}
 
- .completed_true .title {color: #c0c0c0; text-decoration: line-through}
+ .completed_true .title {color: #c0c0c0; text-decoration: line-through;}
 
  .done {
-    margin-left: 10px;
+    margin-left: 1px;
  }
-.completed_true.done {display: none}
+.completed_true.done {display: none;}
