@@ -13,8 +13,12 @@
  *= require_tree .
  *= require_self
  */
+ @import "font-awesome-sprockets";
+ @import "font-awesome";
+ @import 'normalize.css';
 
  body {font-size: 1.75em}
+
  .buffet-top{
    margin-top: 2em;
  }
@@ -33,6 +37,7 @@
  .priority_1 {color: #009090}
  .priority_2 {color: #c09000}
  .priority_3 {color: #c00000}
+
  .completed_true .title {color: #c0c0c0; text-decoration: line-through}
 
  .done {

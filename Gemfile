@@ -8,6 +8,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'twitter-bootstrap-rails', '~> 4.0'
 gem 'simple_form', '~> 3.5'
 gem 'haml', '~> 5.0', '>= 5.0.1'
+gem 'font-awesome-sass'
 
 group :assets do
   gem 'sass-rails', '~> 5.0'
