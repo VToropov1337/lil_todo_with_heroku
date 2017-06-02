@@ -28,10 +28,16 @@
 }
 .title {
   &.completed_true {
-    color :green;
+    color :gray;
   }
   &.completed_false {
     color :red;
+  }
+  &.status_1.completed_false {
+    color :green;
+  }
+  &.status_2.completed_false {
+    color :yellow;
   }
   &:hover {
     .link_holder {

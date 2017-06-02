@@ -1,5 +1,5 @@
 <p>
-  <span class="title completed_<%= task.completed %>">
+  <span class="title status_<%= task.priority %> completed_<%= task.completed %>">
     <%= task.title %>
     <span class="link_holder">
     <%= link_to content_tag('span', '', class: 'fa fa-pencil'), edit_task_path(task), class: 'action' %>
