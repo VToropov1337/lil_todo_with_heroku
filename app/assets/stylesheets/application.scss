@@ -17,30 +17,25 @@
  @import "font-awesome";
  @import 'normalize.css';
 
- body {font-size: 1.75em}
-
- .buffet-top{
-   margin-top: 2em;
- }
-
- .task {
-    margin-bottom: 1em;
-
-    .action {opacity: 0;}
-
-    &:hover .action {
+ body {font-size: 2.75em}
+.link_holder {
+  opacity: 0;
+  transition: 1s all ease-in;
+  display: inline-block;
+}
+.button_holder {
+  margin: 0 0 0 -1px;
+}
+.title {
+  &.completed_true {
+    color :green;
+  }
+  &.completed_false {
+    color :red;
+  }
+  &:hover {
+    .link_holder {
       opacity: 1;
-      transition: opacity 0,5s ease;
     }
- }
-
- .priority_1 {color: #009090}
- .priority_2 {color: #c09000}
- .priority_3 {color: #c00000}
-
- .completed_true .title {color: #c0c0c0; text-decoration: line-through;}
-
- .done {
-    margin-left: 1px;
- }
-.completed_true.done {display: none;}
+  }
+}
